@@ -48,8 +48,8 @@ st.subheader('Results are : ')
 # Predicting result on the web app after submit button is pressed
 if submit:
     # Get pre path and model path
-    pre_path = '/workspaces/Iris-end-to-end-project/notebook/preprocessor.pkl'
-    model_path = '/workspaces/Iris-end-to-end-project/notebook/model.pkl'
+    pre_path = 'notebook/preprocessor.pkl'
+    model_path = 'notebook/model.pkl'
     # Get the predictions along with probability
     pred, max_prob = predict_species(pre_path, model_path)
     # Print the results
